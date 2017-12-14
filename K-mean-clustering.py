@@ -66,7 +66,7 @@ def k_mean(x, k):
 if __name__ == '__main__':
 
     # loading dataset of form [[data1],[data2], ....]
-    # inp = pickle.load(open('/media/zero/41FF48D81730BD9B/all-the-news/4/temp_tokenize_dec_dataset/test.pickle', 'rb'))
+    inp = pickle.load(open('/media/zero/41FF48D81730BD9B/all-the-news/4/temp_tokenize_dec_dataset/test.pickle', 'rb'))
     x = np.array([i[0] for i in inp])
 
     # return cluster number for every data
